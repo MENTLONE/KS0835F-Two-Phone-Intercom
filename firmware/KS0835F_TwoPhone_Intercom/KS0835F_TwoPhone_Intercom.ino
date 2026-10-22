@@ -106,7 +106,7 @@ void loop() {
       case IDLE: Serial.println("IDLE"); break;
       case RINGING_A: Serial.println("RINGING PHONE A"); break;
       case RINGING_B: Serial.println("RINGING PHONE B"); break;
-      case ANSWERED: Serial.println("ANSWERED - AUDIO NOT CONNECTED"); break;
+      case ANSWERED: Serial.println("ANSWERED - AUDIO VIA CROSS-CONNECTION"); break;
       case TIMED_OUT: Serial.println("TIMED OUT"); break;
     }
   }
